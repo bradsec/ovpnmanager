@@ -1,5 +1,6 @@
 # raspberrypi
-Raspberry Pi related shell and python scripts
+Raspberry Pi related shell and python scripts.
+
 Assist with automation, system administration etc.
 
 # vpnmanager.py
