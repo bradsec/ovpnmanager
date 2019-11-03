@@ -1,6 +1,6 @@
 # raspberrypi
-Raspberry Pi related shell and python scripts.
-Assist with automation, system administration etc.
+Raspberry Pi related shell and python scripts.  
+Assist with task automation, system administration etc.
 
 # vpnmanager.py
 (Tested with Python 3.7.3 on Raspberry Pi 3 running Raspbian Buster)
