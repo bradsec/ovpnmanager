@@ -6,7 +6,7 @@ Zip/tar backup system files and email as attachment to a
 recipient using Gmail SMTP. Best for small backups like
 system configuration files.
 
-Testing with Python 3.7.3 on Raspberry Pi 3 running Raspbian Buster.
+Tested with Python 3.7.3 on Raspberry Pi 3 running Raspbian Buster.
 
 Prerequisites:
 1. Requires a Gmail account with less secure app access enabled.
