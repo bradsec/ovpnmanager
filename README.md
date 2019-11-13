@@ -35,8 +35,6 @@ print("OUTPUT\nclean_filepath:\n{}\n".format(clean_filepath))
 ```
 Result
 ```
-PYTHON 3 RE STRING CLEANER FUNCTION FOR FILEPATHS
-
 INPUT
 dirty_filepath:
 Thi$$S---%$@/%@$%iS....A*^%^%#/NErD_____ P-Y-T-H-O-N {GEEK}/file....path  \\.__- CleAnEr...&$@.txt
@@ -45,7 +43,29 @@ OUTPUT
 clean_filepath:
 this/is_a/_python_/file_path_cleaner_.txt
 ```
+**Random sleep time delay with milliseconds and display counter**  
+**Using Python 3 and time.sleep, numpy and random modules**
+```
+import time
+import numpy
+import random
 
+def random_time_delay(min_seconds,max_seconds):
+    # Use Numpy to get random time between min and max with milliseconds
+    random_time = round(numpy.random.uniform(min_seconds,max_seconds),2)
+    for x in numpy.arange(0,random_time,0.01):
+        print("- Random delay is {} seconds: {}".format(random_time, round(x,2)), end='\r')
+        time.sleep(0.01)
+
+print("\nPYTHON 3 RANDOM TIME DELAY")
+print("Modules: time.sleep, numpy and random\n")
+# set min / max time in seconds
+random_time_delay(180,360)
+```
+Result example:
+```
+- Random delay is 211.24 seconds: 3.39
+```
 
 
 # vpnmanager.py
