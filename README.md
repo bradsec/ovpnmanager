@@ -1,6 +1,6 @@
 ## Python Code Snippets and Scripts
 
-**Clean special characters and filter filename or filepath string**  
+**Clean special characters and filter words from a filename or filepath string**  
 **Using Python 3 and re module**
 ```
 import re
