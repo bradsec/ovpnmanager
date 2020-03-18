@@ -1,14 +1,12 @@
 # vpnmanager.py
 (Tested with Python 3.7.3 on Raspberry Pi 3/4 running Raspbian Buster)
 
-IPVanish OpenVPN server manager and randomiser
-- Fetch full IPVanish server list
-- Select defined number of servers
-- Rank servers based on ping latency
-- Select new server from ranked results
-- Randomise server selection
-- Write OpenVPN configuration file
+IPVanish OpenVPN Manager and VPN Server Randomizer
 - Start/stop OpenVPN service
+- Fetch and sort IPVanish server list
+- Rank servers based on ping latency
+- Select random server from top ranked list
+- Write OpenVPN configuration file
 
 Prerequisites:
 1. `/etc/openvpn` default openvpn installation path
