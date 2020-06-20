@@ -292,7 +292,7 @@ def write_ovpn_config_file():
         ovpn_config_file.write("tls-cipher TLS-DHE-RSA-WITH-AES-256-CBC-SHA:TLS-DHE-DSS-WITH-AES-256-CBC-SHA:TLS-RSA-WITH-AES-256-CBC-SHA\n")
         ovpn_config_file.write("auth-user-pass auth.txt\n")
         ovpn_config_file.write("script-security 2\n")
-        ovpn_config_file.write("up /etc/openvpn/up.sh\n")
+        #ovpn_config_file.write("up /etc/openvpn/up.sh\n")
         ovpn_config_file.close()
         task_pass()
     except ovpn_config_file.CalledProcessError as e:
