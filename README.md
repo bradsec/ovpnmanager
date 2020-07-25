@@ -1,5 +1,5 @@
-# OVPNMANGER
-###debian_ipvanish_ovpnmanager.py\
+# OVPNMANAGER
+### debian_ipvanish_ovpnmanager.py\
 This file is for Debian based OS including Raspberry Pi OS
 (Tested with Python 3.6+ on Raspberry Pi 3/4 running Raspberry Pi OS Buster)\
 
@@ -43,6 +43,8 @@ auth-user-pass auth.txt
 script-security 2
 ```
 
-###pfsense_ipvanish.ovpnmanager.py
+### pfsense_ipvanish.ovpnmanager.py
 A pfsense / FreeBSD version will be added soon.
+
+### Other VPN providers will also be added.
 
