@@ -18,9 +18,8 @@ Prerequisites:
 
 Example of `/etc/openvpn/client.conf` file:
 
-`
+```
 client
-
 dev tun
 proto udp
 remote sjc-a14.ipvanish.com 443
@@ -39,4 +38,4 @@ keysize 256
 tls-cipher TLS-DHE-RSA-WITH-AES-256-CBC-SHA:TLS-DHE-DSS-WITH-AES-256-CBC-SHA:TLS-RSA-WITH-AES-256-CBC-SHA
 auth-user-pass auth.txt
 script-security 2
-`
+```
