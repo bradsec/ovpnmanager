@@ -1,7 +1,7 @@
 # OVPNMANAGER
 ### debian_ipvanish_ovpnmanager.py
-A terminal OpenVPN manager for IPVanish   
-This file is for Debian based OS including Raspberry Pi OS. 
+A terminal OpenVPN manager for IPVanish.   
+This file is for Debian based OS including Raspberry Pi OS.   
 (Tested with Python 3.6+ on Raspberry Pi 3/4 running Raspberry Pi OS Buster)
 
 IPVanish OpenVPN server manager and randomizer
