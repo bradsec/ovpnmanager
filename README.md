@@ -1,7 +1,8 @@
 # OVPNMANAGER
 ### debian_ipvanish_ovpnmanager.py
-This file is for Debian based OS including Raspberry Pi OS
-(Tested with Python 3.6+ on Raspberry Pi 3/4 running Raspberry Pi OS Buster)\
+A terminal OpenVPN manager for IPVanish   
+This file is for Debian based OS including Raspberry Pi OS. 
+(Tested with Python 3.6+ on Raspberry Pi 3/4 running Raspberry Pi OS Buster)
 
 IPVanish OpenVPN server manager and randomizer
 - Start/stop OpenVPN service
@@ -12,7 +13,7 @@ IPVanish OpenVPN server manager and randomizer
 - Includes other network functions which can be customised
 - Can be run via a cron job at scheduled intervals
 
-Prerequisites:\
+Prerequisites:  
 (You need to have a working existing IPVanish OpenVPN configuration file)
 1. `/etc/openvpn` default openvpn installation path
 2. `/etc/openvpn/client.conf` is the default openvpn configuration file
