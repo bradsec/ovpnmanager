@@ -1,5 +1,5 @@
 # OVPNMANAGER
-### debian_ipvanish_ovpnmanager.py\
+### debian_ipvanish_ovpnmanager.py
 This file is for Debian based OS including Raspberry Pi OS
 (Tested with Python 3.6+ on Raspberry Pi 3/4 running Raspberry Pi OS Buster)\
 
