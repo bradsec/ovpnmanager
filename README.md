@@ -9,7 +9,7 @@ IPVanish OpenVPN Manager and VPN Server Randomiser
 - Select random server from top ranked list
 - Write OpenVPN configuration file
 
-Prerequisites:
+Prerequisites:\
 (You need to have a working existing IPVanish OpenVPN configuration file)
 1. `/etc/openvpn` default openvpn installation path
 2. `/etc/openvpn/client.conf` is the default openvpn configuration file
