@@ -19,7 +19,7 @@ Prerequisites:
 Example of `/etc/openvpn/client.conf` file:
 
 `
-client
+client 
 dev tun
 proto udp
 remote sjc-a14.ipvanish.com 443
