@@ -1,5 +1,5 @@
 # debian_ipvanish_ovpnmanager.py
-(Tested with Python 3.6+ on Raspberry Pi 3/4 running Raspberry Pi OS Buster)
+(Tested with Python 3.6+ on Raspberry Pi 3/4 running Raspberry Pi OS Buster)\
 Should run with other Debian based OS systems.
 
 IPVanish OpenVPN Manager and VPN Server Randomiser
