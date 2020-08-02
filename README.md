@@ -65,5 +65,5 @@ Note: There are still some issues with pfSense caching last server. Currently a 
 4. Client files will start with client followed by a number, identify the number and edit the main() function in ovpnmanager.py
 
 #### Example of pfSense root crontab - example show how to run every 4 hours with US only servers
-Presumes ovpnmanager.py has bee copied to `/var/etc/openvpn`  
+Presumes ovpnmanager.py has been copied to `/var/etc/openvpn`  
 `0 */4 * * * /usr/local/bin/python3.7 /var/etc/openvpn/ovpnmanager.py -f us`
