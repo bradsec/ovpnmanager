@@ -48,7 +48,7 @@ script-security 2
 
 ### Prerequisites pfSense
 #### Note: pfSense version recommended for advanced users
-Note: There are still some issues with pfSense caching last server.  
+Note: There are still some issues with pfSense caching last server. Also depending on your configuration the get_ip_info() function may return your public service provider WAN address and not the VPN address.
 1. Recommend backup of pfSense configuration prior to using.  
 2. Setup a working OpenVPN IPVanish client through the web admin interface.
 3. pfSense Openvpn configuration files are located in `/var/etc/openvpn`.
