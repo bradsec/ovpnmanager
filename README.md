@@ -52,6 +52,10 @@ auth-user-pass auth.txt
 script-security 2
 ```
 
+#### Example of Debian / Raspberry Pi OS root crontab - example show how to run every 4 hours with US only servers
+Presumes ovpnmanager.py has been copied to `/etc/openvpn`  
+`0 */4 * * * /usr/bin/python3 /etc/openvpn/ovpnmanager.py -f us`
+
 ### Prerequisites pfSense
 #### Note: pfSense version recommended for advanced users
 Note: There are still some issues with pfSense caching last server. Currently a work around has been added restart the client 3 times to flush out old server. Also depending on your configuration the get_ip_info() function may return your public service provider WAN address and not the VPN address.
@@ -61,5 +65,5 @@ Note: There are still some issues with pfSense caching last server. Currently a 
 4. Client files will start with client followed by a number, identify the number and edit the main() function in ovpnmanager.py
 
 #### Example of pfSense root crontab - example show how to run every 4 hours with US only servers
-Presumes ovpnmanager.py is in /var/etc/openvpn  
+Presumes ovpnmanager.py has bee copied to `/var/etc/openvpn`  
 `0 */4 * * * /usr/local/bin/python3.7 /var/etc/openvpn/ovpnmanager.py -f us`
