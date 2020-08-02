@@ -21,7 +21,7 @@ Also compatable with pfSense (FreeBSD) firewall.
 - `-f` specifies a country filter ie. To rank only servers from US for example run `sudo python3 ovpnmanager -f us`
 - pfSense depending on version `python3` command may be `python3.7`
 
-### Prerequisites Debian OS / Raspberry Pi:  
+## Prerequisites Debian OS / Raspberry Pi:  
 (You need to have a working existing IPVanish OpenVPN configuration file)
 1. `/etc/openvpn` default openvpn installation path
 2. `/etc/openvpn/client.conf` is the default openvpn configuration file
@@ -56,7 +56,7 @@ script-security 2
 Presumes ovpnmanager.py has been copied to `/etc/openvpn`  
 `0 */4 * * * /usr/bin/python3 /etc/openvpn/ovpnmanager.py -f us`
 
-### Prerequisites pfSense
+## Prerequisites pfSense
 #### Note: pfSense version recommended for advanced users
 Note: There are still some issues with pfSense caching last server. Currently a work around has been added restart the client 3 times to flush out old server. Also depending on your configuration the get_ip_info() function may return your public service provider WAN address and not the VPN address.
 1. Recommend backup of pfSense configuration prior to using.  
