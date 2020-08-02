@@ -1,6 +1,6 @@
 # OVPNMANAGER
 ### ovpnmanager.py
-A terminal OpenVPN manager for IPVanish.  
+A terminal OpenVPN manager currently IPVanish.  
 Uses Python 3.6+ (built in modules only required).  
 This file is compatable with Debian based systems including Ubuntu and Raspberry Pi OS.  
 (Tested with Python 3.6+ on Raspberry Pi 3/4 running Raspberry Pi OS Buster). 
