@@ -15,6 +15,12 @@ Also compatable with pfSense (FreeBSD) firewall.
 - Includes other network functions which can be customised
 - Can be run via a cron job at scheduled intervals
 
+### Usage:
+- Run `sudo python3 ovpnmanager.py` to will default to setup number of servers with no country filter.
+- `-s` specifies how many servers to test `sudo python3 ovpnmanager.py -s 10` will rank from 10 servers
+- `-f` specifies a country filter ie. To rank only servers from US for example run `sudo python3 ovpnmanager -f us`
+- pfSense depending on version `python3` command may be `python3.7`
+
 ### Prerequisites Debian OS / Raspberry Pi:  
 (You need to have a working existing IPVanish OpenVPN configuration file)
 1. `/etc/openvpn` default openvpn installation path
