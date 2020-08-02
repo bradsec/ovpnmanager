@@ -7,11 +7,6 @@ This file is compatable with Debian based systems including Ubuntu and Raspberry
 
 Also compatable with pfSense (FreeBSD) firewall.
 
-#### Note: pfSense version recommended for advanced users
-- Recommend backup of pfSense configuration prior to using.  
-- There are still some issues with pfSense caching last server.  
-- pfSense Openvpn configuration files are located in `/var/etc/openvpn`.
-
 ### Features:
 - Start/stop OpenVPN service
 - Fetch and sort IPVanish server list
@@ -52,4 +47,10 @@ auth-user-pass auth.txt
 script-security 2
 ```
 
-
+### Prerequisites pfSense
+#### Note: pfSense version recommended for advanced users
+Note: There are still some issues with pfSense caching last server.  
+1. Recommend backup of pfSense configuration prior to using.  
+2. Setup a working OpenVPN IPVanish client through the web admin interface.
+3. pfSense Openvpn configuration files are located in `/var/etc/openvpn`.
+4. Client files will start with client followed by a number, identify the number and edit the main() function in ovpnmanager.py
