@@ -18,7 +18,7 @@ pfSense Openvpn configuration files are located `/var/etc/openvpn`.
 - Includes other network functions which can be customised
 - Can be run via a cron job at scheduled intervals
 
-### Prerequisites:  
+### Prerequisites Debian OS / Raspberry Pi:  
 (You need to have a working existing IPVanish OpenVPN configuration file)
 1. `/etc/openvpn` default openvpn installation path
 2. `/etc/openvpn/client.conf` is the default openvpn configuration file
