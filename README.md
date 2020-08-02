@@ -1,13 +1,16 @@
 # OVPNMANAGER
 ### ovpnmanager.py
-A terminal OpenVPN manager for IPVanish.   
+A terminal OpenVPN manager for IPVanish.  
+Uses Python 3.6+ (built in modules only required).  
 This file is compatable with Debian based systems including Ubuntu and Raspberry Pi OS.  
 (Tested with Python 3.6+ on Raspberry Pi 3/4 running Raspberry Pi OS Buster). 
-Also compatable with pfSense (FreeBSD) firewall.  
+
+Also compatable with pfSense (FreeBSD) firewall.
+
 #### Note: pfSense version recommended for advanced users
-Recommend backup of pfSense configuration prior to using.  
-There are still some issues with pfSense caching last server.  
-pfSense Openvpn configuration files are located `/var/etc/openvpn`.  
+- Recommend backup of pfSense configuration prior to using.  
+- There are still some issues with pfSense caching last server.  
+- pfSense Openvpn configuration files are located in `/var/etc/openvpn`.
 
 ### Features:
 - Start/stop OpenVPN service
